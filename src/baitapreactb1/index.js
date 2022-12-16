@@ -1,10 +1,16 @@
-import React, {Component} from "react";
+import Navbar from "./navbar";
 
-class Baitapreact1 extends Component{
-render(){
-    return(
-        <div>Bài tập react b1</div>
+import Header from "./hearder";
+
+import LisIteam from "./Listiteam";
+
+import Footer from "./Footer";
+export default function Baitapb1(){
+    return (<>
+        <Navbar/>
+        <Header/>
+        <LisIteam/>
+        <Footer/>
+        </>
     )
 }
-}
-export default Baitapreact1;
